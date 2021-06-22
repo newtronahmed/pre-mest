@@ -1,0 +1,105 @@
+:root {
+  --lightPrimary: #fe9e34;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background: url("construction.jpg") no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+svg {
+  width: 50px;
+  height: 50px;
+
+}
+h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  letter-spacing: 3px;
+}
+h4 {
+
+  margin-bottom: 50px;
+  width: 80%;
+  line-height: 1.5;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+
+}
+ul li {
+  border: 2px solid var(--lightPrimary);
+  padding: 3px 6px;
+  margin: 0 2px;
+  cursor: pointer;
+
+}
+ul li a {
+  color: black;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: white;
+}
+.container {
+  width: 65%;
+  margin-left: 10%;
+  padding-top: 10i%;
+}
+.box-container {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+}
+.box-container .box {
+  padding: 1rem;
+  border-top: 5px solid var(--primary);
+  width: 100%;
+
+}
+.box h2 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+/*Light and dark mode*/
+
+.light-primary {
+  color: var(--lightPrimary);
+}
+.dark-primary{
+  color: rgba(0, 0, 0, 1.0);
+}
+.dark-secondary{
+  color: rgba(0, 0, 0, 0.5);
+}
+.light-secondary{
+  color: white;
+}
+.light-box {
+  background-color: rgba(256, 256, 256, 0.5);
+}
+.dark-box {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.dark-box h2 {
+  color: var(--lightPrimary);
+}
+.dark-box p {
+  color: var(--lightPrimary);
+}
+.light-box h2 {
+  color: rgba(0, 0, 50, 1);
+}
+.light-box p {
+  color:rgba(0, 0, 50, 0.5);;
+}
+
+
