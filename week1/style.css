@@ -1,3 +1,25 @@
+article {
+    position: relative;
+    background: linear-gradient(120deg , #cc2B5E, #753A88);
+    padding: 1rem;
+}
+
+article::after{
+    content: '';
+    background-color: #161E2E;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 1rem);
+    color: white;
+    height: calc(100% - 1rem);
+}
+article h1 {
+    color: white;
+    position: relative;
+    z-index: 2;
+}
 :root{
     --primary: #fe9e34;
 }
@@ -9,6 +31,7 @@ html,body{
     height: 100vh;
     background:  url('construction.jpg') no-repeat ;
     background-size: cover;
+    mix-blend-mode: normal;
     font-family: sans-serif;
 }
 svg{
